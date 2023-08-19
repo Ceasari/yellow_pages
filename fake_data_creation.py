@@ -5,6 +5,10 @@ from directory import Directory
 fake = Faker("ru_RU")
 
 def generate_fake_record():
+    """
+    Генерирует фэйковую запись со случайными данными.
+    :return: Объект Record со сгенерированными данными
+    """
     surname = fake.last_name()
     name = fake.first_name()
     patronymic = fake.middle_name()
@@ -15,6 +19,11 @@ def generate_fake_record():
 
 
 def fill_directory_with_fake_records(directory, num_records):
+    """
+    Заполняет справочник фэйковыми записями.
+    :param directory: Экземпляр справочника, в который добавляются записи
+    :param num_records: Количество записей для генерации
+    """
     for _ in range(num_records):
         fake_record = generate_fake_record()
         directory.add_record(fake_record)
