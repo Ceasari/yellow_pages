@@ -3,7 +3,6 @@ from records import Record
 from directory import Directory
 
 fake = Faker("ru_RU")
-# fake.add_provider(lambda: "+7-###-###-####")
 
 def generate_fake_record():
     surname = fake.last_name()
