@@ -27,6 +27,8 @@
 
 Целью проекта "Yellow Pages Junior" является выполнение тестового задание потенциального работодателя.
 
+[ссылка на текст задания](https://docs.google.com/document/d/1csQbhugmmHlvjFlrqYapanxpC2k8tMN_UpjKSEHuS84/edit?usp=sharing)
+
 ## Автор
 
 [Ceasari](https://github.com/Ceasari)
