@@ -29,7 +29,7 @@
 
 ## Автор
 
-Ceasari
+[Ceasari](https://github.com/sergei)
 
 ## Лицензия
 
